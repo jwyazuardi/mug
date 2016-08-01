@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: Updates
 title:  "Upcoming Games and Applications"
 date:   August 2016
 categories: jekyll update
