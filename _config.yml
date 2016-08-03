@@ -9,7 +9,7 @@
 title: Calorado Software 
 email: caloradosoftware@calosoft.com
 description: > # this means to ignore newlines until "baseurl:"
-  This Website has been copyrighted and no one is to violate the website regulations.Any misuse of the website shall be further investigated to court.
+  This website has been copyrighted and no one is to violate the website regulations.Any misuse of the website shall be further investigated to court.The owner reserves the rights to the misued user.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: caloradosoftware
