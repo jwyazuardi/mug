@@ -1,5 +1,5 @@
 ---
 layout: page
-title: Applications 
+title: Normal Applications 
 permalink: /appsmade/
 ---
