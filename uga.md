@@ -3,7 +3,7 @@ layout: page
 title: Upcoming Projects 
 permalink: /uga.md/
 ---
-<h1>**Applications**<h1>
+>**Applications**
 
 <h1>1)Classnected (classnected.com)</h1>
 <h1>FREE</h1>
