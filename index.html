@@ -1,23 +1,36 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en-US">
+<meta charset="UTF-8" />
+<title>Calorado Software</title>
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<style type="text/css">
+		.mu_register { margin:0 auto; }
+		.mu_register form { margin-top: 2em; }
+		.mu_register .error,.mu_register .mu_alert { 
+			-webkit-border-radius: 1px;
+			-moz-border-radius: 1px;
+			border-radius: 1px;
+			border: 1px solid #bbb;
+			padding:10px;
+			margin-bottom: 20px;
+		}
+		.mu_register .error {
+			background: #FDE9EA;
+			color: #A14A40;
+			border-color: #FDCED0;
+		}
+		.mu_register input[type="submit"],
+			.mu_register #blog_title,
+			.mu_register #user_email,
+			.mu_register #blogname,
+			.mu_register #user_name { width:100%; font-size: 24px; margin:5px 0; }
+		.mu_register .prefix_address,
+			.mu_register .suffix_address {font-size: 18px;display:inline; }
+		.mu_register label { font-weight:700; font-size:15px; display:block; margin:10px 0; }
+		.mu_register label.checkbox { display:inline; }
+		.mu_register .mu_alert { 
+			background: #FFF9CC;
+			color: #736B4C;
+			border-color: #FFDB4F;
+		}
+	</style>
